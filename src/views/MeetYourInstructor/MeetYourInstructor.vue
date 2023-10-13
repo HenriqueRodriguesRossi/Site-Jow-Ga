@@ -20,7 +20,7 @@
     <section>
         <div class="imgs">
             <div class="img">
-                <img src="../../assets/little-felipe.jpg" alt="Imagem do primeiro treino do professor"> <br>
+                <img src="../../assets/littleFelipe.jpg" alt="Imagem do primeiro treino do professor"> <br>
 
                 <span class="description-span">Eu indo para a 1ª aula nos meus 3 ou 4 aninhos hahah</span>
             </div>

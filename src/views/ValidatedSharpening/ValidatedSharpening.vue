@@ -46,7 +46,7 @@
         </div>
 
         <div class="section-img">
-            <img src="../../assets/sparring-felipe.jpg" alt="Imagem do professor lutando">
+            <img src="../../assets/sparringFelipe.jpg" alt="Imagem do professor lutando">
         </div>
     </section>
 </template>

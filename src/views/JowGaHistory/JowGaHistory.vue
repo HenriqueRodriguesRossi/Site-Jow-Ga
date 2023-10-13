@@ -37,7 +37,7 @@
     </div>
 
     <div class="img">
-      <img src="../../assets/Jow-Lung.jpg" alt="Jow Lung - Criador do Jow Ga" @mouseover="showTooltip"
+      <img src="../../assets/JowLung.jpg" alt="Jow Lung - Criador do Jow Ga" @mouseover="showTooltip"
         @mouseleave="hideTooltip" />
 
       <div v-if="tooltipVisible" class="tooltip">

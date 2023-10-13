@@ -2,7 +2,7 @@
     <h2>SUA FORMA DE LUTAR</h2>
     <section>
         <div class="section-img">
-            <img src="../../assets/imagem-felipe-01.jpg" alt="Imagem do professor treinando" width="600" height="600"
+            <img src="../../assets/imagemFelipe01.jpg" alt="Imagem do professor treinando" width="600" height="600"
                 @mouseover="showTooltip" @mouseleave="hideTooltip">
 
             <div v-if="tooltipVisible" class="tooltip">

@@ -98,4 +98,23 @@ ul {
     align-items: center;
     font-weight: 600;
 }
+
+@media(max-width: 600px) {
+    img{
+        width: 400px;
+        height: 400px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-texts{
+        padding-top: 80px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
 </style>

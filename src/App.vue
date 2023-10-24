@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import Header from './components/header.vue';
 import { RouterView } from 'vue-router';
 
 export default {
@@ -14,5 +14,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+@media(max-width: 600px){
+  html{
+    overflow-x: hidden;
+  }
+
+}
 </style>

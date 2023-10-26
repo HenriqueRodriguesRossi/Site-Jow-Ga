@@ -6,6 +6,7 @@
         não é um campeonato, rua não é ringue, na rua é vida por vida e a função da sua autodefesa é preservá-la a
         qualquer custo. O sistema Jow Ga se adequa a você, e não você ao sistema. Por essa razão que apanhamos na
         academia, para não apanharmos na rua:</p>
+
     <section>
         <div class="section-texts">
             <ul>
@@ -46,7 +47,7 @@
         </div>
 
         <div class="section-img">
-            <img src="../../assets/sparringFelipe.jpg" alt="Imagem do professor lutando">
+            <img src="../../assets/imagem-felipe-02.jpg" alt="Imagem do professor lutando">
         </div>
     </section>
 </template>
@@ -67,7 +68,7 @@ h2 {
     font-size: 30px;
 }
 
-p{
+p {
     color: ghostwhite;
     font-size: 16px;
     width: auto;
@@ -92,14 +93,34 @@ section {
     height: auto;
 }
 
-ul{
+ul {
     list-style: none;
     font-size: 16px;
     color: ghostwhite;
 }
 
-img{
+img {
     width: 600px;
     height: 650px;
+}
+
+@media(max-width: 600px){
+    h2{
+        margin-top: -20px;
+    }
+
+    section, .section-texts ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-texts ul{
+        margin-top: -15px;
+    }
 }
 </style>

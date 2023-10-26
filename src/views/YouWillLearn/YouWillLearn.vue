@@ -73,18 +73,14 @@ ul {
 }
 
 @media(max-width: 600px){
-    .second-section{
-        width: auto;
+    .second-section-p, .second-section ul li, .obs-span{
+        width: 400px;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 5px;
-    }
-
-    .obs-span{
-        width: auto;
-        height: auto;
         text-align: center;
     }
 }

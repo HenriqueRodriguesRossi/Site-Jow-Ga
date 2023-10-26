@@ -100,10 +100,15 @@ ul {
 }
 
 @media(max-width: 600px) {
+    h2{
+        margin-top: -10px;
+    }
+
     img{
         width: 400px;
         height: 400px;
     }
+
     section{
         display: flex;
         flex-direction: column;
@@ -111,10 +116,18 @@ ul {
         justify-content: center;
     }
 
+    .section-texts, .section-texts ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .section-texts{
-        padding-top: 80px;
-        padding-right: 50px;
-        padding-left: 50px;
+        gap: 5px;
+        padding-top: 50px;
     }
 }
 </style>

@@ -132,19 +132,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: fallAnimation 1s ease-out;
-  }
-
-  @keyframes fallAnimation {
-    0% {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
   .first-section .texts {
@@ -161,11 +148,6 @@ p {
     width: 400px;
     height: 400px;
     margin-top: 200px;
-  }
-
-  p {
-    color: ghostwhite;
-    font-size: 16px;
   }
 }
 </style>

@@ -87,4 +87,20 @@ ul{
     text-decoration: none;
     margin-top: 10px;
 }
+
+@media(max-width: 600px){
+    section h2{
+        margin-top: -20px;
+    }
+    
+    ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
 </style>

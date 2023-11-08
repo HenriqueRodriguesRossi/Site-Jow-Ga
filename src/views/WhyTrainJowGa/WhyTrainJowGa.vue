@@ -67,4 +67,26 @@ ul{
     text-decoration: none;
     margin-top: 10px;
 }
+
+@media(max-width: 600px){
+    section{
+        margin-top: -70px;
+    }
+
+    p{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    
+    ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
 </style>

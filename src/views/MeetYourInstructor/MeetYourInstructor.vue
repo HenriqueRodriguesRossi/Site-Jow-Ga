@@ -1,7 +1,7 @@
 <template>
     <h2 class="h2">CONHEÇA SEU INSTRUTOR</h2>
 
-    <p>
+    <p class="p">
         Fala, aluno, beleza? Muito prazer. Você viu logo acima que treinar comigo tem seus diferenciais, e quero
         aproveitar e permitir que você conheça um pouco mais sobre mim, ainda mais, porque, seremos família quando
         entrar pra nossa turma.
@@ -14,10 +14,7 @@
         se liga só:
     </p>
 
-
-
-
-    <section>
+    <section class="section">
         <div class="imgs">
             <div class="img">
                 <img src="../../assets/littleFelipe.jpg" alt="Imagem do primeiro treino do professor"> <br>
@@ -118,7 +115,40 @@ section {
     margin-top: 10px;
 }
 
-.p{
+.p {
     margin-top: 15px;
+}
+
+@media(max-width: 600px) {
+    h2 {
+        margin-top: -70px;
+    }
+
+    .p {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section .img img {
+        display: flex;
+        gap: 10px;
+        width: 400px;
+        height: 400px;
+    }
+    .description-span{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 </style>

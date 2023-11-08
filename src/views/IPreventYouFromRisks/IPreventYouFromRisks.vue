@@ -35,4 +35,10 @@ p {
     padding-right: 50px;
     margin-top: 20px;
 }
+
+@media(max-width: 600px){
+    h2 {
+        margin-top: -20px;
+    }
+}
 </style>

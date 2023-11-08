@@ -7,7 +7,7 @@
         qualquer custo. O sistema Jow Ga se adequa a você, e não você ao sistema. Por essa razão que apanhamos na
         academia, para não apanharmos na rua:</p>
 
-    <section>
+    <section class="second_section">
         <div class="section-texts">
             <ul>
                 <li>
@@ -121,6 +121,27 @@ img {
 
     .section-texts ul{
         margin-top: -15px;
+    }
+
+    .second_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second_section .section-img{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second_section .section-img img{
+        width: 400px;
+        height: 400px;
+        margin-left: 100px;
     }
 }
 </style>

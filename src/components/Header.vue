@@ -1,12 +1,12 @@
 <template>
-  <header>
+  <header class="header">
     <div class="header-text">
       <router-link to="/">
         <h1>Jow-Ga Brasil</h1>
       </router-link>
     </div>
     <div class="header-img">
-        <img src="../assets/whatsApp-icon.png" alt="Botão para mandar mensagem no WhatsApp" @click="redirectsToWhatsapp"/>
+      <img src="../assets/whatsApp-icon.png" alt="Botão para mandar mensagem no WhatsApp" @click="redirectsToWhatsapp" />
     </div>
   </header>
 </template>
@@ -17,7 +17,7 @@ export default {
 
   data() {
     return {
-      phoneNumber: '11943724480'
+      phoneNumber: '11946075546'
     }
   },
 

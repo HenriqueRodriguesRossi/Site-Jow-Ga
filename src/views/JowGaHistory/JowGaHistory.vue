@@ -115,11 +115,39 @@ p {
   font-size: 16px;
 }
 
-.description{
+.description {
   color: ghostwhite;
   font-size: 16px;
   width: auto;
-  display: flex;
+  display: block;
   justify-content: center;
+}
+
+@media(max-width: 600px) {
+  .first-section {
+    padding-top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-section .texts {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-section img {
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+  }
 }
 </style>

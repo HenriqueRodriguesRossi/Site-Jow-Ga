@@ -70,4 +70,30 @@ ul {
     align-items: center;
     font-weight: 600;
 }
+
+@media(max-width: 600px){
+    h2{
+        margin-top: -120px;
+    }
+
+    .section-texts{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .section-texts ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        text-align: center;
+    }
+}
 </style>

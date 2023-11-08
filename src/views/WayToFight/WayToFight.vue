@@ -98,4 +98,36 @@ ul {
     align-items: center;
     font-weight: 600;
 }
+
+@media(max-width: 600px) {
+    h2{
+        margin-top: -10px;
+    }
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-texts, .section-texts ul li{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-texts{
+        gap: 5px;
+        padding-top: 50px;
+    }
+}
 </style>

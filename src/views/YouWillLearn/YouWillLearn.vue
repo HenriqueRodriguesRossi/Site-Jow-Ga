@@ -14,7 +14,8 @@
         </ul>
 
         <span class="obs-span">Além também de um belíssimo arsenal de técnicas com armas
-            brancas, ao qual se somam mais de 18 tipos de armas no sistema.</span>
+        brancas, ao qual se somam mais de 18 tipos de armas no sistema.</span>
+
     </section>
 </template>
 
@@ -69,5 +70,18 @@ ul {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+}
+
+@media(max-width: 600px){
+    .second-section-p, .second-section ul li, .obs-span{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        text-align: center;
+    }
 }
 </style>

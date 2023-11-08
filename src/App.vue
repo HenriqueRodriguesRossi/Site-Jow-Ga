@@ -4,8 +4,8 @@
 </template>
 
 <script>
-import Header from './components/header.vue';
 import { RouterView } from 'vue-router';
+import Header from './components/Header.vue';
 
 export default {
   components: {
